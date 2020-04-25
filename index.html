@@ -9,6 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=greek-ext"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/global.css">
     <link rel="stylesheet" href="CSS/main-navigation.css">
     <link rel="stylesheet" href="CSS/banner.css">
@@ -19,15 +20,14 @@
 
 <body>
 
-    <div class="banner">
-        <nav class="main-navigation">
-            <div class="main-navigation__logo">
-                <a href="#" class="main-navigation__logo-link">
-                    <img src="gallery/images/logo.png" alt="logo" class="main-navigation__logo-img">
-                </a>
-            </div>
+    <nav class="main-navigation">
+        <div class="main-navigation__logo">
+            <a href="#" class="main-navigation__logo-link">
+                <img src="gallery/images/logo.png" alt="logo" class="main-navigation__logo-img">
+            </a>
+        </div>
 
-            <section class="menu">
+        <section class="menu">
             <ul class="main-navigation__menu">
                 <li class="main-navigation__menu-item">
                     <a href="#" class="main-navigation__link">Home</a>
@@ -38,12 +38,30 @@
                 <li class="main-navigation__menu-item">
                     <a href="#" class="main-navigation__link">Work</a>
                 </li>
-                <li class="main-navigation__menu-item">
+                <li class="main-navigation__menu-item last-child">
                     <a href="#" class="main-navigation__link">Contact</a>
                 </li>
             </ul>
         </section>
-        </nav>
+    </nav>
+
+    <!--tutaj miejsce na plik JS, trzeba będzie również dodać odpowiednią klasę w odpowiednim miejscu ofc-->>
+
+    <section class="main-banner">
+        <div class="header">
+            <h1 class="banner-header">Helping business and companies innovate and ransform</h1>
+            <p class="banner-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur ducimus
+                temporibus soluta. Commodi atque, enim officia nam a accusantium at. Iusto quibusdam vitae quis deserunt
+                nemo? Autem excepturi qui ullam.</p>
+        <div class="banner-buttons">
+            <a href="#" class="main-banner__button">
+                Start now
+            </a>
+            <a href="#" class="main-banner__button">
+                Our services
+            </a>
+        </div>
+    </section>
 
     </div>
 
