@@ -1,0 +1,30 @@
+.main-navigation {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.main-navigation__logo {
+    margin-top: 30px;
+    margin-left: 320px;
+    padding: 5px;
+}
+
+.main-navigation__menu {
+    display: flex;
+}
+
+.main-navigation__menu-item {
+    margin: 30px 20px 0 20px;
+    padding: 5px;
+}
+
+.main-navigation__link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
