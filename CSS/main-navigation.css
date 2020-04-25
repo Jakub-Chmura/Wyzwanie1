@@ -3,14 +3,16 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;;
+    z-index: 2;
+    position: absolute;
 }
 
 
 
 .main-navigation__logo {
     margin-top: 30px;
-    margin-left: 320px;
+    margin-left: 300px;
     padding: 5px;
 }
 
@@ -21,10 +23,21 @@
 .main-navigation__menu-item {
     margin: 30px 20px 0 20px;
     padding: 5px;
+    border: 2px solid transparent;
+}
+
+.last-child {
+    margin-right: 280px;
 }
 
 .main-navigation__link {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main-navigation__link:hover {
+    border-bottom: 2px solid white;
 }

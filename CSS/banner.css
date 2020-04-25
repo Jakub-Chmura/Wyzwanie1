@@ -1,6 +1,67 @@
-.banner {
-    background: url(../gallery/images/background.jpg);
-    width: 1920px;
+.main-banner {
+    background: url(../gallery/images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    max-width: 1920px;
     height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
+
+.header {
+    width: 750px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner-header {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.banner-header::first-letter {
+    text-transform: uppercase;
+}
+
+.banner-paragraph {
+    font-size: 18px;
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.banner-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-banner__button {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid #fb414e;
+    padding: 12px 40px 12px;
+    margin: 60px 20px;
+}
+
+.main-banner__button:hover {
+    background: #fb414e
+}
+
+.main-banner__button::first-letter {
+    text-transform: uppercase;
+}
