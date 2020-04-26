@@ -1,19 +1,13 @@
-.main-banner {
+
+.banner-inside {
     background: url(../gallery/images/background1.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
-    max-width: 1920px;
-    height: 800px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
+    height: 750px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    margin-top: -25px;
+
 }
 
 
@@ -21,24 +15,21 @@
     width: 750px;
     align-items: center;
     justify-content: center;
+    margin-top: 70px;
     font-family: 'Source Sans Pro', sans-serif;
+    text-transform: capitalize;
 }
 
 .banner-header {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    margin-top: 60px;
-}
-
-.banner-header::first-letter {
-    text-transform: uppercase;
+    margin-top: -50px;
 }
 
 .banner-paragraph {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
-    margin-top: 80px;
     text-align: center;
 }
 
@@ -46,6 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-transform: capitalize;
     
 }
 
@@ -55,13 +47,22 @@
     text-decoration: none;
     border: 2px solid #fb414e;
     padding: 12px 40px 12px;
-    margin: 60px 20px;
+    margin: 40px 20px;
+    transition: all 0.3s ease 0s;
 }
 
-.main-banner__button:hover {
-    background: #fb414e
+.button-1 {
+    background: #fb414e;
 }
 
-.main-banner__button::first-letter {
-    text-transform: uppercase;
+.button-1:hover {
+    background: rgb(243, 240, 240);
+    color: #fb414e;
 }
+
+.button-2:hover {
+    background: #f5434e;
+
+}
+
+
