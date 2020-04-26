@@ -14,6 +14,18 @@
     color: white;
 }
 
+@media (max-width: 1024px) {
+    .square {
+        height: 400px;
+    }
+}
+
+@media (max-width: 830px) {
+    .square {
+        height: 450px;
+    }
+}
+
 .one {
     background: #fb414e;
 }
