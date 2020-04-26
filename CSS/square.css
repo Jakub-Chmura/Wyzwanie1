@@ -1,0 +1,42 @@
+
+.squares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.square {
+    height: 350px;
+    width: 360px;;
+    background: #202b30;
+    margin: -60px 20px 50px;
+    color: white;
+}
+
+.one {
+    background: #fb414e;
+}
+
+.square-img {
+    width: 70px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.square-header {
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+
+.white-line {
+    height: 3px;
+    width: 43px;
+    background: white;
+    margin-left: 30px;
+}
+
+.square-paragraph {
+    margin-left: 30px;
+    margin-right: 30px;
+}
