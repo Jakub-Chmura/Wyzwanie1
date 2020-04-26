@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="CSS/main-navigation.css">
     <link rel="stylesheet" href="CSS/banner.css">
     <link rel="stylesheet" href="CSS/square.css">
+    <link rel="stylesheet" href="CSS/middle-text.css">
+    <link rel="stylesheet" href="CSS/white-squares.css">
 </head>
 
 <body>
@@ -26,7 +28,7 @@
         </div>
 
         <section class="menu">
-            <ul class="main-navigation__menu">
+            <ul class="main-navigation__menu js-main-navigation__menu">
                 <li class="main-navigation__menu-item">
                     <a href="#" class="main-navigation__link">Home</a>
                 </li>
@@ -41,9 +43,15 @@
                 </li>
             </ul>
         </section>
+
+        <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
+            <img src="./gallery/images/mobile-menu-back.png" alt="Otwórz / Zamknij nawigację"
+                class="main-navigation__mobile-button-image">
+        </button>
+
     </nav>
 
-    <!--tutaj miejsce na plik JS, trzeba będzie również dodać odpowiednią klasę w odpowiednim miejscu ofc-->>
+    <script src="JS/main-navigation.js"></script>
 
     <section class="banner-inside">
         <div class="header">
@@ -81,3 +89,54 @@
             <p class="square-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam architecto inventore eligendi sapiente! Soluta consequuntur sapiente est iure</p>
         </div>
     </div>
+
+    <section class="middle-text">
+        <span class="first-line">Services</span>
+        <div class="second-line">Best services for <span class="second-line__span">visual perfection</span></div>
+        <p class="middle-text__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic labore unde dolorem debitis eligendi voluptas, corporis itaque repudiandae rerum qui sit, porro sequi doloribus consectetur, earum adipisci provident iste alias.</p>
+    </section>
+
+    <div class="white-squares__flex">
+    <section class="white-squares__grid">
+
+        <div class="white-square ws1">
+            <img src="./icons/strategy.png" alt="" class="white-square__img">
+            <h1 class="white-square__header">Strategy</h1>
+            <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra felis vitae enim mattis, quis egestas. </p>
+        </div>
+
+        <div class="white-square ws2">
+            <img src="icons/marketing.png" alt="" class="white-square__img">
+            <h1 class="white-square__header">Marketing</h1>
+            <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est nisl, suscipit ut tincidunt in, auctor.</p>
+        </div>
+
+        <div class="white-square ws3">
+            <img src="icons/technology.png" alt="" class="white-square__img">
+            <h1 class="white-square__header">Technology</h1>
+            <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nibh felis. Praesent porta porta metus.</p>
+        </div>
+
+        <div class="white-square ws4">
+            <img src="icons/ecommerce.png" alt="" class="white-square__img">
+            <h1 class="white-square__header">eCommerce</h1>
+            <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin tellus sed ante blandit, et consequat. </p>
+        </div>
+
+        <div class="white-square ws5">
+            <img src="icons/branding.png" alt="" class="white-square__img">
+            <h1 class="white-square__header">Branding</h1>
+            <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur, tortor ac congue scelerisque, eros metus.</p>
+        </div>
+
+        <div class="white-square ws6">
+            <img src="icons/seo.png" alt="" class="white-square__img">
+            <h1 class="white-square__header">SEO Indetity</h1>
+            <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui eros, aliquet in consectetur tempor, placerat. </p>
+        </div>
+
+    </section>
+</div>
+
+</body>
+</html>
