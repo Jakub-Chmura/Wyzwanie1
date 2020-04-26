@@ -4,9 +4,10 @@
 }
 
 body {
-    background: #fcd;
+    background: white;
     font-family: 'Roboto Condensed', sans-serif;
     line-height: 1.5;
+    color: white;
 }
 
 ul {
