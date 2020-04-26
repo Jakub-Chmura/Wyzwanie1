@@ -1,0 +1,35 @@
+.middle-text {
+    text-align: center;
+    margin: 50px auto;
+    font-family: 'Source Sans Pro', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.first-line {
+    text-transform: uppercase;
+    color: #fb414e;
+    font-size: 18px;
+}
+
+.second-line {
+    color: #212c31;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.second-line__span {
+    color: #fb414e;
+    text-transform: capitalize;
+}
+
+.middle-text__paragraph {
+    color: #8a8a8a;
+    font-size: 16px;
+    margin: 25px 33%;
+}
+
+@media (max-width: 1024px) {
+    .middle-text__paragraph {
+        margin: 25px 10%;
+    }
+}
