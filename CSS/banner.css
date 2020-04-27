@@ -6,10 +6,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -25px;
-
+    margin-top: -100px;
 }
 
+@media (max-width: 800px) {
+    .banner-inside {
+        margin-top: 0;
+    }
+}
 
 .header {
     width: 750px;
