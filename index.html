@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="CSS/square.css">
     <link rel="stylesheet" href="CSS/middle-text.css">
     <link rel="stylesheet" href="CSS/white-squares.css">
+    <link rel="stylesheet" href="CSS/gallery.css">
 </head>
 
 <body>
@@ -30,7 +31,8 @@
         <section class="menu">
             <ul class="main-navigation__menu js-main-navigation__menu main-navigation__menu--open">
                 <div class="main-navigation__mobile-button-wrapper">
-                        <img src="./gallery/images/arrow.svg" class="main-navigation__mobile-button-back__image" alt="Powrót do strony głównej">
+                    <img src="./gallery/images/arrow.svg" class="main-navigation__mobile-button-back__image"
+                        alt="Powrót do strony głównej">
                     <div class="main-navigation__mobile-text">Back</div>
                 </div>
                 <li class="main-navigation__menu-item">
@@ -73,86 +75,104 @@
             </div>
     </section>
 
-    <div class="squares">
-        <div class="square one">
-            <img src="tiles/content-concept-strategy.svg" alt="" class="square-img">
-            <h2 class="square-header">Content concept & strategy</h2>
-            <div class="white-line"></div>
-            <p class="square-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia dicta
-                consequuntur veritatis ratione, labore facilis inventore, aliquam ipsam?</p>
+    <main>
+        <div class="squares">
+            <div class="square one">
+                <img src="tiles/content-concept-strategy.svg" alt="Dokumenty i ważne papierki" class="square-img">
+                <h2 class="square-header">Content concept & strategy</h2>
+                <div class="white-line"></div>
+                <p class="square-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia dicta
+                    consequuntur veritatis ratione, labore facilis inventore, aliquam ipsam?</p>
+            </div>
+            <div class="square two">
+                <img src="tiles/design-conscepts.svg" alt="Ołówek i linijka" class="square-img">
+                <h2 class="square-header">Design & concept</h2>
+                <div class="white-line"></div>
+                <p class="square-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore adipisci
+                    cum
+                    animi pariatur, provident autem quam accusantium error</p>
+            </div>
+            <div class="square three">
+                <img src="tiles/seo-marketing.svg" alt="Lupa badająca wykres" class="square-img">
+                <h2 class="square-header">SEO & marketing solutions</h2>
+                <div class="white-line"></div>
+                <p class="square-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam architecto
+                    inventore eligendi sapiente! Soluta consequuntur sapiente est iure</p>
+            </div>
         </div>
-        <div class="square two">
-            <img src="tiles/design-conscepts.svg" alt="" class="square-img">
-            <h2 class="square-header">Design & concept</h2>
-            <div class="white-line"></div>
-            <p class="square-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore adipisci cum
-                animi pariatur, provident autem quam accusantium error</p>
-        </div>
-        <div class="square three">
-            <img src="tiles/seo-marketing.svg" alt="" class="square-img">
-            <h2 class="square-header">SEO & marketing solutions</h2>
-            <div class="white-line"></div>
-            <p class="square-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam architecto
-                inventore eligendi sapiente! Soluta consequuntur sapiente est iure</p>
-        </div>
-    </div>
 
-    <section class="middle-text">
-        <span class="first-line">Services</span>
-        <div class="second-line">Best services for <span class="second-line__span">visual perfection</span></div>
-        <p class="middle-text__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic labore unde
-            dolorem debitis eligendi voluptas, corporis itaque repudiandae rerum qui sit, porro sequi doloribus
-            consectetur, earum adipisci provident iste alias.</p>
-    </section>
-
-    <div class="white-squares__flex">
-        <section class="white-squares__grid">
-
-            <div class="white-square ws1">
-                <img src="./icons/strategy.png" alt="" class="white-square__img">
-                <h1 class="white-square__header">Strategy</h1>
-                <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                    pharetra felis vitae enim mattis, quis egestas. </p>
-            </div>
-
-            <div class="white-square ws2">
-                <img src="icons/marketing.png" alt="" class="white-square__img">
-                <h1 class="white-square__header">Marketing</h1>
-                <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est
-                    nisl, suscipit ut tincidunt in, auctor.</p>
-            </div>
-
-            <div class="white-square ws3">
-                <img src="icons/technology.png" alt="" class="white-square__img">
-                <h1 class="white-square__header">Technology</h1>
-                <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-                    in nibh felis. Praesent porta porta metus.</p>
-            </div>
-
-            <div class="white-square ws4">
-                <img src="icons/ecommerce.png" alt="" class="white-square__img">
-                <h1 class="white-square__header">eCommerce</h1>
-                <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                    sollicitudin tellus sed ante blandit, et consequat. </p>
-            </div>
-
-            <div class="white-square ws5">
-                <img src="icons/branding.png" alt="" class="white-square__img">
-                <h1 class="white-square__header">Branding</h1>
-                <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-                    consectetur, tortor ac congue scelerisque, eros metus.</p>
-            </div>
-
-            <div class="white-square ws6">
-                <img src="icons/seo.png" alt="" class="white-square__img">
-                <h1 class="white-square__header">SEO Indetity</h1>
-                <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui
-                    eros, aliquet in consectetur tempor, placerat. </p>
-            </div>
-
+        <section class="middle-text">
+            <span class="first-line">Services</span>
+            <div class="second-line">Best services for <span class="second-line__span">visual perfection</span></div>
+            <p class="middle-text__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic labore unde
+                dolorem debitis eligendi voluptas, corporis itaque repudiandae rerum qui sit, porro sequi doloribus
+                consectetur, earum adipisci provident iste alias.</p>
         </section>
-    </div>
 
+        <section class="white-squares__flex">
+            <div class="white-squares__grid">
+
+                <div class="white-square ws1">
+                    <img src="./icons/strategy.png" alt="Kółko zębate" class="white-square__img">
+                    <h1 class="white-square__header">Strategy</h1>
+                    <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        pharetra felis vitae enim mattis, quis egestas. </p>
+                </div>
+
+                <div class="white-square ws2">
+                    <img src="icons/marketing.png" alt="Roślinka w żarówce" class="white-square__img">
+                    <h1 class="white-square__header">Marketing</h1>
+                    <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est
+                        nisl, suscipit ut tincidunt in, auctor.</p>
+                </div>
+
+                <div class="white-square ws3">
+                    <img src="icons/technology.png" alt="Ikona z żarówką" class="white-square__img">
+                    <h1 class="white-square__header">Technology</h1>
+                    <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum
+                        in nibh felis. Praesent porta porta metus.</p>
+                </div>
+
+                <div class="white-square ws4">
+                    <img src="icons/ecommerce.png" alt="Komputer z sześcianem na ekranie" class="white-square__img">
+                    <h1 class="white-square__header">eCommerce</h1>
+                    <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                        sollicitudin tellus sed ante blandit, et consequat. </p>
+                </div>
+
+                <div class="white-square ws5">
+                    <img src="icons/branding.png" alt="Plik dokumentów" class="white-square__img">
+                    <h1 class="white-square__header">Branding</h1>
+                    <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Pellentesque
+                        consectetur, tortor ac congue scelerisque, eros metus.</p>
+                </div>
+
+                <div class="white-square ws6">
+                    <img src="icons/seo.png" alt="Człowiek badany lupą" class="white-square__img">
+                    <h1 class="white-square__header">SEO Indetity</h1>
+                    <p class="white-square__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                        dui
+                        eros, aliquet in consectetur tempor, placerat. </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="gallery-flex">
+            <div class="gallery">
+                <img src="./gallery/1.jpg" alt="" class="gallery-item">
+                <img src="./gallery/2.jpg" alt="" class="gallery-item">
+                <img src="./gallery/3.jpg" alt="" class="gallery-item">
+                <img src="./gallery/4.jpg" alt="" class="gallery-item">
+                <img src="./gallery/5.jpg" alt="" class="gallery-item">
+                <img src="./gallery/6.jpg" alt="" class="gallery-item">
+                <img src="./gallery/7.jpg" alt="" class="gallery-item">
+                <img src="./gallery/8.jpg" alt="" class="gallery-item">
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
