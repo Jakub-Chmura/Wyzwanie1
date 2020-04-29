@@ -20,6 +20,12 @@
     }
 }
 
+@media (max-width: 730px) {
+    .white-squares__grid {
+        grid-template-columns: repeat(1,350px);
+    }
+}
+
 .white-square {
     background: white;
 }
