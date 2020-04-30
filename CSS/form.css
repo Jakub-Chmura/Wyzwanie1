@@ -1,0 +1,54 @@
+.form {
+    margin: 200px auto;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ccc;
+}
+
+.form-text {
+    text-align: right;
+    width: 600px;
+}
+
+.form-text__header {
+    color: #202b30;
+    font-size: 40px;
+    background: #adc;
+}
+
+.form-text__paragraph {
+    color: #8a8a8a;
+    font-size: 16px;
+    width: 600px;
+    background: green
+}
+
+.contact-form__fields {
+    background: pink;
+    width: 600px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+
+}
+
+.contact-form__field {
+    width: 96%;
+    margin: 15px 2%;
+    text-transform: uppercase;
+    color: rgb(175, 175, 175);
+    font-size: 14px;
+    font-weight: normal;
+    padding: 2px 5px;
+    height: 50px;
+}
+
+.first-line {
+    flex-basis: 100%;
+}
+
+.second-line {
+    flex-basis: 46%;
+}
