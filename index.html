@@ -40,13 +40,13 @@
                     <a href="#" class="main-navigation__link">Home</a>
                 </li>
                 <li class="main-navigation__menu-item">
-                    <a href="#" class="main-navigation__link">Services</a>
+                    <a href="#services" class="main-navigation__link">Services</a>
                 </li>
                 <li class="main-navigation__menu-item">
-                    <a href="#" class="main-navigation__link">Work</a>
+                    <a href="#work" class="main-navigation__link">Work</a>
                 </li>
                 <li class="main-navigation__menu-item">
-                    <a href="#" class="main-navigation__link">Contact</a>
+                    <a href="#contact" class="main-navigation__link">Contact</a>
                 </li>
             </ul>
         </section>
@@ -79,14 +79,14 @@
     <main>
         <div class="squares">
             <div class="square one">
-                <img src="tiles/content-concept-strategy.svg" alt="Dokumenty i ważne papierki" class="square-img">
+                <img src="tiles/content-concept-strategy.svg" alt="" class="square-img">
                 <h2 class="square-header">Content concept & strategy</h2>
                 <div class="white-line"></div>
                 <p class="square-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia dicta
                     consequuntur veritatis ratione, labore facilis inventore, aliquam ipsam?</p>
             </div>
             <div class="square two">
-                <img src="tiles/design-conscepts.svg" alt="Ołówek i linijka" class="square-img">
+                <img src="tiles/design-conscepts.svg" alt="" class="square-img">
                 <h2 class="square-header">Design & concept</h2>
                 <div class="white-line"></div>
                 <p class="square-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore adipisci
@@ -94,7 +94,7 @@
                     animi pariatur, provident autem quam accusantium error</p>
             </div>
             <div class="square three">
-                <img src="tiles/seo-marketing.svg" alt="Lupa badająca wykres" class="square-img">
+                <img src="tiles/seo-marketing.svg" alt="" class="square-img">
                 <h2 class="square-header">SEO & marketing solutions</h2>
                 <div class="white-line"></div>
                 <p class="square-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam architecto
@@ -102,7 +102,7 @@
             </div>
         </div>
 
-        <section class="middle-text">
+        <section class="middle-text" id="services">
             <span class="first-line">Services</span>
             <div class="second-line">Best services for <span class="second-line__span">visual perfection</span></div>
             <p class="middle-text__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic labore unde
@@ -161,22 +161,22 @@
             </div>
         </section>
 
-        <section class="gallery-flex">
+        <section class="gallery-flex" id="work">
             <div class="gallery">
-                <img src="./gallery/1.jpg" alt="" class="gallery-item">
-                <img src="./gallery/2.jpg" alt="" class="gallery-item">
-                <img src="./gallery/3.jpg" alt="" class="gallery-item">
-                <img src="./gallery/4.jpg" alt="" class="gallery-item">
-                <img src="./gallery/5.jpg" alt="" class="gallery-item">
-                <img src="./gallery/6.jpg" alt="" class="gallery-item">
-                <img src="./gallery/7.jpg" alt="" class="gallery-item">
-                <img src="./gallery/8.jpg" alt="" class="gallery-item">
+                <img src="./gallery/1.jpg" alt="Napis Hood na białym budynku, w tle wieżowce" class="gallery-item">
+                <img src="./gallery/2.jpg" alt="Klawiatura na biurku" class="gallery-item">
+                <img src="./gallery/3.jpg" alt="Osoba robiąca sobie zdjęcie w bluzie Nike" class="gallery-item">
+                <img src="./gallery/4.jpg" alt="Kartka z cyframi ozdobnymi" class="gallery-item">
+                <img src="./gallery/5.jpg" alt="Torba, obok rzeczy, min. telefon" class="gallery-item">
+                <img src="./gallery/6.jpg" alt="Ręka trzymająca słoik z sokiem" class="gallery-item">
+                <img src="./gallery/7.jpg" alt="Rzut boczny na maszynę" class="gallery-item">
+                <img src="./gallery/8.jpg" alt="Niebieskie i czarne opakowania foliowe" class="gallery-item">
             </div>
         </section>
 
-        <section class="form">
+        <section class="form" id="contact">
             <div class="form-text">
-                <h2 class="form-text__header">Want to have a <br> professional project?<br> Let's talk about this.</h3>
+                <h2 class="form-text__header">Want to have a professional project? Let's talk about this.
                     <p class="form-text__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac
                         ipsum eget enim eleifend malesuada. Praesent vitae lacinia quam. Donec sed vulputate nibh, vel
                         aliquet lacus. Pellentesque congue quam non arcu. </p>
@@ -184,20 +184,24 @@
                         massa ullamcorper, fringilla turpis eget, blandit arcu. Pellentesque ac fermentum enim. Cras
                         magna nunc, dapibus quis blandit ac, iaculis cursus nunc. </p>
             </div>
-            <div class="contact-form__fields">
+            <form class="contact-form__fields">
                 <input name="name" class="contact-form__field first-line" required placeholder="your name &#42;">
 
                 <input class="contact-form__field second-line" required placeholder="company name &#42;">
 
                 <input class="contact-form__field second-line" required placeholder="email address &#42;">
 
-                <input type="text" class="contact-form__field third-line" placeholder="select service &#42;">
+                <select name="" id="selected" class="contact-form__field third-line" placeholder="select service &#42;" required>
+                    <option value="web-design">Web design</option>
+                    <option value="option2">Opcja 2</option>
+                    <option value="option3">Opcja 3</option>
+                </select>></select>
 
-                <textarea name="story" rows="5" cols="33">
-                Describe your project
-                </textarea>
+                <textarea class="textarea" name="story" rows="6" autocomplete="off" placeholder="Describe your project &#42;" required></textarea>
 
-            </div>
+                <button class="form-button" type="submit">Submit</button>
+
+            </form>
         </section>
     </main>
 </body>

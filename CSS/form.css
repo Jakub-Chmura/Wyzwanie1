@@ -2,41 +2,81 @@
     margin: 200px auto;
     width: 1300px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    background: #ccc;
+}
+
+@media (max-width: 1300px) {
+    .form {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 95vw;
+    }
+}
+
+@media (max-width: 1245px) {
+    .form-text, .contact-form__fields {
+        flex-basis: 90vw;
+    }
 }
 
 .form-text {
     text-align: right;
-    width: 600px;
+    width: 450px;
+    margin-right: 20px;
+}
+
+@media (max-width: 1245px) {
+    .form-text {
+        margin-right: 0;
+    }
 }
 
 .form-text__header {
     color: #202b30;
-    font-size: 40px;
-    background: #adc;
+    font-size: 45px;
+    margin-top: 0;
+    text-align: right;
+}
+
+@media (max-width: 1245px) {
+    .form-text__header {
+        text-align: center;
+    }
 }
 
 .form-text__paragraph {
     color: #8a8a8a;
     font-size: 16px;
-    width: 600px;
-    background: green
+    width: 450px;
+    background: white
+}
+
+@media (max-width: 1254px) {
+    .form-text__paragraph {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .contact-form__fields {
-    background: pink;
     width: 600px;
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
+    margin-left: 20px;
+}
 
+@media (max-width: 1245px) {
+    .contact-form__fields {
+        margin-left: 0;
+    }
 }
 
 .contact-form__field {
     width: 96%;
-    margin: 15px 2%;
+    margin: 15px 2% 0;
     text-transform: uppercase;
     color: rgb(175, 175, 175);
     font-size: 14px;
@@ -51,4 +91,34 @@
 
 .second-line {
     flex-basis: 46%;
+}
+
+@media (max-width: 500px) {
+    .second-line {
+        flex-basis: 100%;
+    }
+}
+
+.textarea {
+    flex-basis: 100%;
+    margin: 0 2%;
+    color: rgb(175, 175, 175);
+    padding: 5px 5px;
+    text-transform: uppercase;
+}
+
+.form-button {
+    flex-basis: 100%;
+    margin: 10px 2% 0;
+    background-color: #fb414e;
+    color: white;
+    height: 35px;
+    border: 1px solid #fb414e;
+    transition: all 0.3s ease 0s;
+}
+
+.form-button:hover {
+    cursor: pointer;
+    background: white;
+    color: #fb414e;
 }
