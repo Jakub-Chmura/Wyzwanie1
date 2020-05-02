@@ -50,12 +50,14 @@
 .gallery-item {
     width: 350px;
     height: 350px;
+    transition: all 0.5s;
 }
 
 @media (max-width: 1024px) {
     .gallery-item {
         width: 400px;
         height: 400px;
+        
     }
 }
 
@@ -64,4 +66,8 @@
         width: 350px;
         height: 350px;
     }
+}
+
+.gallery-item:hover {
+    transform: scale(1.3);
 }
