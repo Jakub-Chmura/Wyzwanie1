@@ -1,5 +1,5 @@
 .form {
-    margin: 200px auto;
+    margin: 200px auto 50px;
     width: 1300px;
     display: flex;
     align-items: flex-start;
@@ -46,11 +46,24 @@
     }
 }
 
+@media (max-width: 450px) {
+    .form-text__header {
+        font-weight: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .form-text__header {
+        font-weight: 35px;
+    }
+}
+
 .form-text__paragraph {
     color: #8a8a8a;
     font-size: 16px;
     width: 450px;
-    background: white
+    background: white;
+    font-weight: normal;
 }
 
 @media (max-width: 1254px) {
@@ -93,7 +106,7 @@
     flex-basis: 46%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .second-line {
         flex-basis: 100%;
     }
