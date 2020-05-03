@@ -11,13 +11,13 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        width: 95vw;
+        width: 95%;
     }
 }
 
 @media (max-width: 1245px) {
     .form-text, .contact-form__fields {
-        flex-basis: 90vw;
+        flex-basis: 90%;
     }
 }
 

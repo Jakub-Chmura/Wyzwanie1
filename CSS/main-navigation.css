@@ -157,13 +157,13 @@
         display: unset;
         background: none;
         border: none;
-        margin-left: 75vw;
+        margin-left: 75%;
         }
 }
     
 @media (max-width: 805px) {
     .main-navigation__mobile-button-image {
-        width: 8vw;
+        width: 8%;
         display: block;
         float: right;
     }
