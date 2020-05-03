@@ -47,7 +47,7 @@
 }
 
 .main-navigation__menu-item {
-    margin: 0 20px;
+    margin: 20px 0 0;
     border: 2px solid transparent;
 }
 
@@ -165,7 +165,7 @@
     
 @media (max-width: 805px) {
     .main-navigation__mobile-button-image {
-        width: 8%;
+        width: 60px;
         display: block;
         float: right;
     }
