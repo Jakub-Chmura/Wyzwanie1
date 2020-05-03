@@ -1,6 +1,5 @@
 .form {
     margin: 200px auto 50px;
-    width: 1300px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -11,7 +10,6 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        width: 95%;
     }
 }
 
