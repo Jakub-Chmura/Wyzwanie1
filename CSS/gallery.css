@@ -24,6 +24,16 @@
 @media (max-width: 1500px) {
     .gallery {
         grid-template-columns: repeat(3, 350px);
+        grid-template-rows: repeat(3, 350px);
+        grid-gap: 20px;
+        grid-column-gap: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .gallery {
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(3, 300px);
     }
 }
 
@@ -50,24 +60,45 @@
 .gallery-item {
     width: 350px;
     height: 350px;
-    transition: all 0.5s;
+    cursor: pointer;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1500) {
     .gallery-item {
-        width: 400px;
-        height: 400px;
-        
+        height: 300px;
+        width: 300px;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1175px) {
     .gallery-item {
-        width: 350px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
     }
 }
 
-.gallery-item:hover {
-    transform: scale(1.3);
-}
+/* tutaj kod odpowiedzialny za wyświetlanie zdjęcia powiększonego */
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8); /* wszystko oprócz wybranego zdjęcia będzie ciemniejsze */
+    display: none; /* defaultowo lightbox jest wyłączony */
+  }
+  
+  #lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    padding: 4px;
+    background-color: black;
+    border: 2px solid white;
+  }
