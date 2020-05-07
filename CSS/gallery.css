@@ -53,7 +53,7 @@
 
 @media (max-width: 730px) {
     .gallery {
-        grid-template-columns: repeat(1,350px);
+        grid-template-columns: repeat(1,250px);
     }
 }
 
